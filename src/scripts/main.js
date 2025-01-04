@@ -355,9 +355,9 @@ const people = [
 ];
 
 function appendCells(data) {
-  const table = document.querySelector('dashboard');
+  const table = document.querySelector('.dashboard');
 
-  table.forEach(person => {
+  data.forEach(person => {
     const row = document.createElement('tr');
 
     const name = document.createElement('td');
